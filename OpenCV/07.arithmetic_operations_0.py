@@ -1,9 +1,9 @@
 import cv2
 import numpy as np
 
-mat0 = np.uint8([[130,140],[150,160]])
-mat1 = np.uint8([[100,100],[100,100]])
-mat2 = np.uint8([[145,145],[145,145]])
+mat0 = np.uint8([[130, 140], [150, 160]])
+mat1 = np.uint8([[100, 100], [100, 100]])
+mat2 = np.uint8([[145, 145], [145, 145]])
 
 print('mat0');print(mat0)
 print('mat1');print(mat1)

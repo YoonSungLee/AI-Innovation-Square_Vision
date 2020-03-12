@@ -6,8 +6,8 @@ def on_mouse(event, x, y, flags, param):
 
 img = cv2.imread('cat.jpg', cv2.IMREAD_UNCHANGED)
 
-cv2.namedWindow('img') # 빈 윈도우 창
-cv2.setMouseCallback('img', on_mouse) # callback function 사용
+cv2.namedWindow('img')  # 빈 윈도우 창
+cv2.setMouseCallback('img', on_mouse)   # callback function 사용
 
 cv2.imshow('img', img)
 
